@@ -3,7 +3,34 @@
   "path": "/women",
   "sections": [
     {
+      "__resolveType": "commerce/sections/Seo/SeoPLP.tsx",
+      "jsonLD": null
+    },
+    {
       "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Category/CategoryBanner.tsx",
+      "banners": [
+        {
+          "image": {
+            "mobile": "https://assets.decocache.com/storefront-fibbo/6a60195c-21b7-462d-a523-ab6d50c354be/hero-cover-(1).png",
+            "desktop": "https://assets.decocache.com/storefront-fibbo/6a60195c-21b7-462d-a523-ab6d50c354be/hero-cover-(1).png"
+          },
+          "title": "Camisetas",
+          "matcher": "/feminino/*",
+          "subtitle": "As"
+        },
+        {
+          "image": {
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/91102b71-4832-486a-b683-5f7b06f649af",
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/ec597b6a-dcf1-48ca-a99d-95b3c6304f96"
+          },
+          "title": "Woman",
+          "matcher": "/*",
+          "subtitle": "As"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Product/SearchResult.tsx",
